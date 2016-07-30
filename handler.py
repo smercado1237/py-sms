@@ -38,7 +38,7 @@ def response_handler(body):
     elif body == 'run':
         message = "The alien, taking this as a sign of blatant disrespect, decides to shoot you with his laser gun, which turns you to mush. Good try! Send 'start' to play again."
     elif body == 'chat':
-        message = "The alien is pleased at your hospitality! You both delve into a deep conversation about the latest Beyoncé song and he begins to really like you. He decides to make you the ruler of his planet and you live in harmony with the aliens for the rest of your days. Send 'start' to play again."
+        message = "The alien is pleased at your hospitality! You both delve into a deep conversation about the latest Beyonce song and he begins to really like you. He decides to make you the ruler of his planet and you live in harmony with the aliens for the rest of your days. Send 'start' to play again."
     elif body == 'take a nap':
         message = "You fall asleep on the comfy clouds and are woken up by an obnoxious buzzing sound. You look at the clock next to your bed. As awesome as that dream was, you're going to be late for work! Send 'start' to play again."
     elif body == 'continue searching':
