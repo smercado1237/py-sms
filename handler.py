@@ -28,7 +28,7 @@ def response_handler(body):
     elif body == 'eat them':
         message = "Well, who wouldn't?! You eat the scrumptious cookies and are happily full until you notice that your stomach feels a little funny. You look down at your hands and realize your skin has begun to turn pink! Your skin slowly gets eaten away and you die. Better luck next time! Send 'start' to play again."
     elif body == 'suspicious':
-        message = "Wise decision. You avoided death! Suddenly, you wake up! I guess it was a dream all along... Send 'start' to play again."
+        message = "Wise decision; you avoided death! After blinking, you are jerked back into reality after opening your eyes to find that you are in your bed at home. I guess it was a dream all along... Send 'start' to play again."
     elif body == 'right': 
         message ="You quickly swerve right and hit your head on a metal sign that says 'testing'. Next time be more aware of your surroundings! Send 'start' to play again."
     elif body == 'safe':
@@ -66,7 +66,7 @@ def response_handler(body):
     elif body == 'closet':
         message = "You run into the closet and escape your capturers. As you begin to look around the closet you're in, you realize that it's a portal back to Earth! Good job, you made it home! Send 'start' to play again."
     elif body == 'fight':
-        message = "Good choice. You jump up from under the table and shoot at the aliens with your watergun. They shreak and begin to turn into orange, glittery dust. You open the file you took and begin reading. To your surprise, you have been kidnapped from Earth and are an unknown planet! Are you going to 'live' on this new planet or 'go back home'?"
+        message = "Good choice. You jump up from under the table and shoot at the aliens with your watergun. They shreak and begin to turn into orange, glittery dust. You open the file you took and begin reading. To your surprise, you have been kidnapped from Earth and are on an unknown planet! Are you going to 'live' on this new planet or 'go back home'?"
     elif body == 'live':
         message = "You decide to spend the rest of your days on this alien planet. You find that the aliens are actually peaceful creatures and you become their ruler and friend. Nice job. Send 'start' to play again."
     elif body == 'go back home':
