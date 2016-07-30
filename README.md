@@ -1,13 +1,7 @@
-# py-sms
-starter code for sending sms in python using twilio
+My project is called Curious Crossroads.
 
-* In your terminal, cd into the py-sms directory that you just cloned.  Then, type the following (press enter when you're done):
-```
-pip install -r requirements.txt
-```
-* Then, edit the relevant information in send_sms.py.
+To play, you must text the Twilio account 'start' to begin the game. Continue choosing differet paths by texting one of the two choices given for each prompt. The game is over once you are given a final fate and Twilio returns "Send 'start' to play again."
 
-* Finally, when you are ready to test your script, type in your terminal (and press enter when you're done)
-```
-python send_sms.py
-```
+Have fun!
+
+P.S. Things/people who helped include Mr. Jiang, patience, and Coca-Cola :)
